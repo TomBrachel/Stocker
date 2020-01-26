@@ -1,0 +1,6 @@
+framework module Pods_Stock_Trailer {
+  umbrella header "Pods-Stock Trailer-umbrella.h"
+
+  export *
+  module * { export * }
+}

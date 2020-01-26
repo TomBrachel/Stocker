@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6138A3E203592D400E9D4DB /* GetMessagesExtStockUpdatesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6138A3D203592D400E9D4DB /* GetMessagesExtStockUpdatesVC.swift */; };
+		A63A8488202CBB6800DABDA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A8487202CBB6800DABDA4 /* AppDelegate.swift */; };
+		A63A848A202CBB6800DABDA4 /* StockUpdatesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A8489202CBB6800DABDA4 /* StockUpdatesVC.swift */; };
+		A63A848C202CBB6800DABDA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A63A848B202CBB6800DABDA4 /* Assets.xcassets */; };
+		A63A848F202CBB6800DABDA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A63A848D202CBB6800DABDA4 /* Main.storyboard */; };
+		A6E7C689202DCF2B00C8C19D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E7C688202DCF2B00C8C19D /* Message.swift */; };
+		A6F77CCC205524620070EE1D /* StockScreenerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F77CCB205524620070EE1D /* StockScreenerVC.swift */; };
+		A6F77CCE205538B20070EE1D /* PennyStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F77CCD205538B20070EE1D /* PennyStock.swift */; };
+		E43525DA4F1DF7A18A79A3B9 /* Pods_Stock_Trailer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84504D38D9ED42021C715D15 /* Pods_Stock_Trailer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84504D38D9ED42021C715D15 /* Pods_Stock_Trailer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stock_Trailer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6138A3D203592D400E9D4DB /* GetMessagesExtStockUpdatesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMessagesExtStockUpdatesVC.swift; sourceTree = "<group>"; };
+		A63A8484202CBB6800DABDA4 /* Stock Trailer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stock Trailer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A63A8487202CBB6800DABDA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A63A8489202CBB6800DABDA4 /* StockUpdatesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockUpdatesVC.swift; sourceTree = "<group>"; };
+		A63A848B202CBB6800DABDA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A63A848E202CBB6800DABDA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A63A8490202CBB6800DABDA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A63A8491202CBB6800DABDA4 /* Stock_Trailer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stock_Trailer.entitlements; sourceTree = "<group>"; };
+		A6E7C688202DCF2B00C8C19D /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		A6F77CCB205524620070EE1D /* StockScreenerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockScreenerVC.swift; sourceTree = "<group>"; };
+		A6F77CCD205538B20070EE1D /* PennyStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennyStock.swift; sourceTree = "<group>"; };
+		AE50E7D386306E7ADE1BB386 /* Pods-Stock Trailer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stock Trailer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stock Trailer/Pods-Stock Trailer.debug.xcconfig"; sourceTree = "<group>"; };
+		C68CC276D78893F427A82E64 /* Pods-Stock Trailer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stock Trailer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stock Trailer/Pods-Stock Trailer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A63A8481202CBB6800DABDA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43525DA4F1DF7A18A79A3B9 /* Pods_Stock_Trailer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B14E00A9CD34B3C9E65A97D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE50E7D386306E7ADE1BB386 /* Pods-Stock Trailer.debug.xcconfig */,
+				C68CC276D78893F427A82E64 /* Pods-Stock Trailer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A63A847B202CBB6800DABDA4 = {
+			isa = PBXGroup;
+			children = (
+				A63A8486202CBB6800DABDA4 /* Stock Trailer */,
+				A63A8485202CBB6800DABDA4 /* Products */,
+				1B14E00A9CD34B3C9E65A97D /* Pods */,
+				B475B73D866B52E2E82516E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A63A8485202CBB6800DABDA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A63A8484202CBB6800DABDA4 /* Stock Trailer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A63A8486202CBB6800DABDA4 /* Stock Trailer */ = {
+			isa = PBXGroup;
+			children = (
+				A63A8491202CBB6800DABDA4 /* Stock_Trailer.entitlements */,
+				A63A8490202CBB6800DABDA4 /* Info.plist */,
+				A6F77CC8205523E60070EE1D /* Model */,
+				A6F77CC9205523EE0070EE1D /* View */,
+				A6F77CCA205523F40070EE1D /* Controller */,
+			);
+			path = "Stock Trailer";
+			sourceTree = "<group>";
+		};
+		A6F77CC8205523E60070EE1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A63A8487202CBB6800DABDA4 /* AppDelegate.swift */,
+				A6E7C688202DCF2B00C8C19D /* Message.swift */,
+				A6F77CCD205538B20070EE1D /* PennyStock.swift */,
+				A6138A3D203592D400E9D4DB /* GetMessagesExtStockUpdatesVC.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A6F77CC9205523EE0070EE1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A63A848D202CBB6800DABDA4 /* Main.storyboard */,
+				A63A848B202CBB6800DABDA4 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6F77CCA205523F40070EE1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6F77CCB205524620070EE1D /* StockScreenerVC.swift */,
+				A63A8489202CBB6800DABDA4 /* StockUpdatesVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B475B73D866B52E2E82516E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84504D38D9ED42021C715D15 /* Pods_Stock_Trailer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A63A8483202CBB6800DABDA4 /* Stock Trailer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A63A8494202CBB6800DABDA4 /* Build configuration list for PBXNativeTarget "Stock Trailer" */;
+			buildPhases = (
+				50F6BB15A04DB615F80DEA81 /* [CP] Check Pods Manifest.lock */,
+				A63A8480202CBB6800DABDA4 /* Sources */,
+				A63A8481202CBB6800DABDA4 /* Frameworks */,
+				A63A8482202CBB6800DABDA4 /* Resources */,
+				6AA17D045C72A6C5B9B1BBCC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stock Trailer";
+			productName = "Stock Trailer";
+			productReference = A63A8484202CBB6800DABDA4 /* Stock Trailer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A63A847C202CBB6800DABDA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Tom Brachel";
+				TargetAttributes = {
+					A63A8483202CBB6800DABDA4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A63A847F202CBB6800DABDA4 /* Build configuration list for PBXProject "Stock Trailer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A63A847B202CBB6800DABDA4;
+			productRefGroup = A63A8485202CBB6800DABDA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A63A8483202CBB6800DABDA4 /* Stock Trailer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A63A8482202CBB6800DABDA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63A848C202CBB6800DABDA4 /* Assets.xcassets in Resources */,
+				A63A848F202CBB6800DABDA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50F6BB15A04DB615F80DEA81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stock Trailer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AA17D045C72A6C5B9B1BBCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Stock Trailer/Pods-Stock Trailer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stock Trailer/Pods-Stock Trailer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A63A8480202CBB6800DABDA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E7C689202DCF2B00C8C19D /* Message.swift in Sources */,
+				A6138A3E203592D400E9D4DB /* GetMessagesExtStockUpdatesVC.swift in Sources */,
+				A6F77CCC205524620070EE1D /* StockScreenerVC.swift in Sources */,
+				A63A848A202CBB6800DABDA4 /* StockUpdatesVC.swift in Sources */,
+				A63A8488202CBB6800DABDA4 /* AppDelegate.swift in Sources */,
+				A6F77CCE205538B20070EE1D /* PennyStock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A63A848D202CBB6800DABDA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A63A848E202CBB6800DABDA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A63A8492202CBB6800DABDA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A63A8493202CBB6800DABDA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		A63A8495202CBB6800DABDA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE50E7D386306E7ADE1BB386 /* Pods-Stock Trailer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Stock Trailer/Stock_Trailer.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SJ5CKM99EV;
+				INFOPLIST_FILE = "Stock Trailer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tombrachel.Stock-Trailer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A63A8496202CBB6800DABDA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C68CC276D78893F427A82E64 /* Pods-Stock Trailer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Stock Trailer/Stock_Trailer.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SJ5CKM99EV;
+				INFOPLIST_FILE = "Stock Trailer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tombrachel.Stock-Trailer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A63A847F202CBB6800DABDA4 /* Build configuration list for PBXProject "Stock Trailer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A63A8492202CBB6800DABDA4 /* Debug */,
+				A63A8493202CBB6800DABDA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A63A8494202CBB6800DABDA4 /* Build configuration list for PBXNativeTarget "Stock Trailer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A63A8495202CBB6800DABDA4 /* Debug */,
+				A63A8496202CBB6800DABDA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A63A847C202CBB6800DABDA4 /* Project object */;
+}
